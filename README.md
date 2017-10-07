@@ -1,8 +1,6 @@
 # Pascals-Triangle
 pascal triangle.py offers functionality to produce a Pascals Triangle and to print it.
 
-.. code-block:: python
-
     >>> n = 5
     >>> triangle = get_pascal_triangle(n)
     >>> output_triangle(triangle)
