@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-def get_pascal_triangle(n):    
+def get_pascals_triangle(n):    
     table = []
     for i in range(n):
         if i == 0:
@@ -24,5 +24,5 @@ def output_triangle(triangle):
 
 if __name__ == "__main__":
     n = 5
-    triangle = get_pascal_triangle(n)
+    triangle = get_pascals_triangle(n)
     output_triangle(triangle)
